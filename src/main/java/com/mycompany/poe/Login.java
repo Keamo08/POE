@@ -19,7 +19,7 @@ public class Login {
             return username.contains("_") && username.length() <= 5;
         }
         public boolean checkPasswordComplexity(String password) {
-            boolean  hasLength = password.length() >= 8;
+            boolean  hasLength = password.length() < 8;
             boolean hasCapital = false;
             boolean hasNumber = false;
             boolean hasSpecial = false;
