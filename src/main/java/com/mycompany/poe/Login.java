@@ -53,7 +53,7 @@ public class Login {
         }
         
         if (!checkCellPhoneNumber(cellNumber)){
-            return "Cell phone number incorrectly formatted or does not contain international code";
+            return "Cell phone number incorrectly formatted or does not contain +27";
             
         }
         this.storedFirstName = firstName;
