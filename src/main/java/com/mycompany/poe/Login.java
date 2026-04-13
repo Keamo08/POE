@@ -16,7 +16,7 @@ public class Login {
     private String storedCellNumber;    
     
      public boolean checkUsername(String username){
-            return username.contains("_") && username.length() <= 5;
+            return username.contains("_") && username.length() > 5;
         }
         public boolean checkPasswordComplexity(String password) {
             boolean  hasLength = password.length() < 8;
