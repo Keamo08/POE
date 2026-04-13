@@ -62,7 +62,7 @@ public class Login {
         this.storedPassword = password;
         this.storedCellNumber = cellNumber;
     
-        return "User registered successfully";
+        return "User successfully registered ";
         }
         
         public boolean loginUser(String username,String password) {
